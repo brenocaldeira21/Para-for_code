@@ -34,7 +34,7 @@ print("=" * 65)
 print(f"Total de tipos diferentes: {len(tipos_unicos)}")
 print(f"Compostos disponíveis: {tipos_unicos}\n")
 
-# PASSO 1.2 — Estruturação do Inventário (Zip)
+# PASSO 2 — Estruturação do Inventário (Zip)
 inventario = list(zip(reagentes, lotes, purezas))
 
 # PASSO 2 — Geração de Relatório (Unpacking)
